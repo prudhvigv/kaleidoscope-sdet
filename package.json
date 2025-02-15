@@ -1,0 +1,36 @@
+{
+  "name": "kaleidoscope-application-process",
+  "version": "1.0.0",
+  "description": "Developing this framework for automating kaleidoscope application submission and review",
+  "main": "index.js",
+  "scripts": {
+    "pretest:headmode": "tsc",
+    "test:headmode": "cucumber-js src/Features --tags @CreateApplication --require test.setup.ts & node built/src/util/reporter.js",
+    "test:headless": "cucumber-js src/Features --tags @CreateApplication --require test.setup.regression.ts",
+    "report": "node built/src/util/reporter.js",
+    "prettier-check": "prettier --check \"**/*.{ts,html,json,md}\"",
+    "prettier-fix": "prettier --write \"**/*.{ts,html,json,md}\""
+  },
+  "keywords": [],
+  "author": "Prudhvi",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4",
+    "cucumber-html-reporter": "5.5.0",
+    "moment": "2.30.1",
+    "playwright": "^1.50.1",
+    "prettier": "^2.1.1",
+    "stylelint": "^16.14.1",
+    "ts-node": "^10.7.0",
+    "typescript": "5.3.3",
+    "winston": "3.17.0",
+    "winston-daily-rotate-file": "5.0.0",
+    "zip-a-folder": "3.1.8",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}

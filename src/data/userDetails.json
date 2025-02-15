@@ -1,0 +1,54 @@
+{
+  "USER_DETAILS": {
+    "EMAIL_ID": "autotest",
+    "FIRST_NAME": "Auto_First",
+    "LAST_NAME": "Auto_Last",
+    "COUNTRY_CODE": "+91",
+    "MOBILE_NO": "9898999989",
+    "PASSWORD": "Test@Pass9909"
+  },
+
+  "ADDRESS_DETAILS": {
+    "STREET_ADDRESS": "test address door",
+    "STATE": "Virginia",
+    "CITY": "Nevada",
+    "ZIP_CODE": "88901",
+    "COUNTRY": "United States of America"
+  },
+
+  "EXTRA_CURRICULAR_ACTIVITIES": {
+    "ACTIVITY_NAME_1": "EC-Activity-1",
+    "YEARS_INVOLVED_1": "10",
+    "LEADERSHIP_ROLES_1": "Team Lead",
+    "DESCRIPTION_1": "Worked as team lead",
+    "ACTIVITY_NAME_2": "EC-Activity-2",
+    "YEARS_INVOLVED_2": "5",
+    "LEADERSHIP_ROLES_2": "Senior Associate",
+    "DESCRIPTION_2": "Worked as SA",
+    "ACTIVITY_NAME_3": "EC-Activity-3",
+    "YEARS_INVOLVED_3": "7",
+    "LEADERSHIP_ROLES_3": "Junior Associate",
+    "DESCRIPTION_3": "Worked as JA",
+    "ACTIVITY_NAME_4": "EC-Activity-4",
+    "YEARS_INVOLVED_4": "1",
+    "LEADERSHIP_ROLES_4": "Manager",
+    "DESCRIPTION_4": "Worked as Manager"
+  },
+
+  "HIGH_SCHOOL_INFO": {
+    "NAME": "Willow Woods",
+    "ADDRESS": "Opp to DMART",
+    "STATE": "Virginia",
+    "CITY": "Nevada",
+    "ZIP_CODE": "88901",
+    "GPA": "10",
+    "Year_Of_Graduation": "2020"
+  },
+
+  "ESSAY": {
+    "CARS": "Cars are motor vehicles designed for transportation, typically running on roads with four wheels and powered by an internal combustion engine or electric motor",
+    "ANIMALS": "Animals are multicellular living organisms that belong to the kingdom Animalia. They vary greatly in size, shape, and habitat, ranging from tiny insects to massive whales",
+    "SCHOOLS": "Schools are educational institutions where students learn academic subjects, life skills, and social values",
+    "OTHERS": "Health is a state of complete physical, mental, and social well-being, not just the absence of disease or illness"
+  }
+}
