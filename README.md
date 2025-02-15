@@ -40,7 +40,7 @@ npm run test:headmode
 ### **Run Tests in Headless Mode by providing tags in CLI**
 
 ```sh
-npm run test:headless -- --tags "@CreateApplication" 
+npm run test:headless 
 ```
 
 ---
